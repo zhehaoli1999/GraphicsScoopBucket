@@ -1,4 +1,4 @@
-# Graphics Scoop Bucket 
+# Graphics Scoop Bucket
 
 This is a personal graphics scoop bucket to facilitate the installation of graphics application infrastructures on Windows.
 
