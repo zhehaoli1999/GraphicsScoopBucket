@@ -1,4 +1,5 @@
 {
+    "##": "Ref: https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests",
     "version": "3.4.0",
     "description": "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.",
     "homepage": "http://eigen.tuxfamily.org",
@@ -7,13 +8,11 @@
     "architecture": {
         "64bit": {
             "url": "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.zip",
-            "hash": "SHA256:b4c198460eba6f28d34894e3a5710998818515104d6e74e5cc331ce31e46e626",
-            "extract_dir": "eigen3"
+            "hash": "SHA256:1ccaabbfe870f60af3d6a519c53e09f3dcf630207321dffa553564a8e75c4fc8",
+            "extract_dir": "eigen-3.4.0",
+            "extract_to": "eigen3"
         }
     },
-    "bin": [],
-    "env_add_path": [],
-    "persist": [],
     "checkver": {
         "github": "https://gitlab.com/libeigen/eigen",
         "regex": "\"tag_name\": \"([0-9.]+)\""
@@ -30,3 +29,5 @@
         }
     }
 }
+
+
