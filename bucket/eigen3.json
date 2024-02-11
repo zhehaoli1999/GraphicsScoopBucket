@@ -1,13 +1,13 @@
 {
-    "version": "3.4.0", // 更换为最新版本
+    "version": "3.4.0", 
     "description": "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.",
     "homepage": "http://eigen.tuxfamily.org",
     "license": "MPL-2.0",
     "notes": "Eigen is a header-only library. No binary files are installed.",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2", // 更换为最新的下载链接
-            "hash": "SHA256:80a43aa9b64030639d1b1bd0c01fae801ab722f537ed" // 使用实际的哈希值替换"哈希值"
+            "url": "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2",
+            "hash": "SHA256:80a43aa9b64030639d1b1bd0c01fae801ab722f537ed" 
         }
     },
     "pre_install": "Remove-Item \"$dir\\*\" -Recurse -Force",
