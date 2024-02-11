@@ -1,15 +1,14 @@
 # Graphics Scoop Bucket 
 
-This is a personal graphics scoop bucket to facilitate the installation of graphics application infrastructures on Windows. 
+This is a personal graphics scoop bucket to facilitate the installation of graphics application infrastructures on Windows.
 
 Including the following libs and apps:
 
-+ Eigen3 
-
++ Eigen3
 
 ---
 
-Below is the original template README. 
+Below is the original template README.
 
 # Scoop Bucket Template
 
