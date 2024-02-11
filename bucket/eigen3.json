@@ -6,19 +6,10 @@
     "notes": "Eigen is a header-only library. No binary files are installed.",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2",
-            "hash": "SHA256:b4c198460eba6f28d34894e3a5710998818515104d6e74e5cc331ce31e46e626"
+            "url": "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.zip",
+            "hash": "SHA256:b4c198460eba6f28d34894e3a5710998818515104d6e74e5cc331ce31e46e626",
+            "extract_dir": "eigen3"
         }
-    },
-    "pre_install": "Remove-Item \"$dir\\*\" -Recurse -Force",
-    "installer": {
-        "script": "Expand-Archive \"$dir\\*tar.bz2\" \"$dir\" -Force; Remove-Item \"$dir\\*tar.bz2\" -Force"
-    },
-    "post_install": [
-        "The Eigen headers have been installed. No further action is required."
-    ],
-    "uninstaller": {
-        "script": "Remove-Item \"$dir\" -Recurse -Force"
     },
     "bin": [],
     "env_add_path": [],
@@ -30,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gitlab.com/libeigen/eigen/-/archive/$version/eigen-$version.tar.bz2"
+                "url": "https://gitlab.com/libeigen/eigen/-/archive/$version/eigen-$version.zip"
             }
         },
         "hash": {
